@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    line-height: 1.2;
+}
+.video-text {
+    display: inline-block;
+    width: 8rem;
+    height: 5rem;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.video-text video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
